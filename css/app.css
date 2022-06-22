@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+.row {
+    display: flex;    
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+header {
+    background-color: rgb(37, 94, 233);
+}
+
+section {
+    /* border: 3px solid black; */
+    padding: 30px;
+    /* background-color: yellowgreen; */
+}
+
+/* section:nth-child(2n+1) {
+    background-color: darkgoldenrod;
+}
+
+section:nth-child(2) {
+    background-color: lightseagreen;
+
+} */
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    /* border: 3px solid orange; */
+}
+
+.flex {
+    display: flex;
+}
+
+/* .logo {
+    /* background-color: lightcoral;
+    border: 2px solid red; */
+ */
+
+.main-nav {
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+    /* background-color: lightcoral;
+    border: 2px solid red; */    
+    /* justify-content: space-evenly; */
+    /* padding: 10px 150px;
+     */
+    
+}
+
+/* .login {
+    /* display: inline-block; */
+    /* background-color: lightcoral;
+    border: 2px solid red; */
+
+ */
+
+.first-item {
+    text-align: center;
+    height: 200px;
+    margin: 100px 250px;
+}
+
+.item-a {
+    /* background-color: blueviolet; */
+    flex-basis: 60%;    
+}
+
+.item-b {
+    /* background-color: aqua; */
+    flex-basis: 40%;
+    padding-top: 50px;
+}
+
+.last-item {
+    text-align: center;    
+}
+
+.section-footer {
+    /* background-color: gray !important; */
+    justify-content: center;
+}
+
+.col {
+    flex-basis: 15%;
+    /* background-color: lightskyblue;
+    border: 3px dotted yellow; */
+    /* height: 500px; */
+}
+
+.col-1 {
+    /* background-color: darkorchid; */
+    flex-basis: 30%;
+    /* border: 3px dotted yellow; */
+    padding: 20px;
+
+
+}
+
+.bottone {
+    flex-basis: 20%;
+    padding: 10px;
+    margin-left: auto;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .row {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#jumbo {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+#stelline {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+
+}
+
+footer {
+    color: white;
+    background-color: rgb(35, 39, 42);
+}
+
+input {
+    border-radius: 35px;
+    padding: 10px;
+}
+
+.first-item h1 {
+    padding-bottom: 25px;
+}
+
+.first-item p {
+    margin-bottom: 25px;
+}
